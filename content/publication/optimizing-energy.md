@@ -17,7 +17,7 @@ users' hand-held, battery-operated devices over a shared broadcast medium. In
 order to reduce the overall energy consumption of the mobile devices, we
 propose Bose\*, a power-aware query operator placement algorithm that determines
 which part of a CQ plan should be executed at the data stream management system
-and which part should be executed at the mobile device. Bose*'s effectiveness
+and which part should be executed at the mobile device. Bose\*'s effectiveness
 in reducing energy consumption, as well as response time under specific
 conditions, is evaluated using simulation, driven by parameters measured on
 real mobile devices.
