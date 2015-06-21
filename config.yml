@@ -1,0 +1,34 @@
+---
+baseurl: "http://jesseszwedko.com/"
+languageCode: "en-us"
+title: "Jesse Szwedko"
+
+params:
+  author: "Jesse Szwedko"
+  firstname: "Jesse"
+  lastname: "Szwedko"
+  disqus: "jesseszwedko"
+  ga: UA-64333655-1
+
+menu:
+  main:
+  - name: "About"
+    weight: 10
+    identifier: "about"
+    url: "/about"
+  - name: "Posts"
+    weight: 20
+    identifier: "posts"
+    url: "/post"
+  - name: "Projects"
+    weight: 30
+    identifier: "projects"
+    url: "/project"
+  - name: "Talks"
+    weight: 40
+    identifier: "talks"
+    url: "/talk"
+  - name: "Publications"
+    weight: 50
+    identifier: "publications"
+    url: "/publication"
