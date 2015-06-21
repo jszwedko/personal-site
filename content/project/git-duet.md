@@ -19,7 +19,7 @@ paired pairing while maintaining identity.
 
 <!--more-->
 
-Traditionally, pairing programmers either have to settle for either:
+Traditionally, pairing programmers have to settle for either:
 
 - Only associating one of their names and email addresses with the commit
 - Abusing `user.name` and `user.email` to create an amalgamation of their
