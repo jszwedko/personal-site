@@ -66,12 +66,12 @@
       </script>
     {{ end }}
     {{ partial "criticalpath.html" . }}
+    <link href="/assets/site.css" rel="stylesheet" type="text/css">
     </head>
     <body>
       <header id="header">
         <a id="logo" href="/"><img src="https://www.gravatar.com/avatar/3e3a63b9ce04e1cd241d8660248e5412.png?s=200" alt="{{ .Site.Title }}" /></a>
         <h1><a href="/">{{.Site.Title}}</a></h1>
-        <p>{{.Description}}</p>
 
         {{ partial "follow.html" . }}
         {{ partial "navigation.html" . }}

@@ -1,0 +1,8 @@
+p.site-description {
+  font-size: .8em;
+}
+
+/* override theme code font size */
+body code {
+  font-size: 1em;
+}
