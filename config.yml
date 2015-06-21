@@ -9,6 +9,7 @@ params:
   lastname: "Szwedko"
   disqus: "jesseszwedko"
   ga: UA-64333655-1
+  description: Blogging about Golang, continuous deployment, and whatever else I happen to be working on.
 
 menu:
   main:
