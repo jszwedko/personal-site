@@ -11,4 +11,6 @@ slides: http://present.go-steel-programmers.org/talk-review-orms/gsp-go-orms.sli
 Talk I gave at the Go Steel Programmers meet-up group in Pittsburgh about
 the current state of Go ORMs.
 
+<!--more-->
+
 [Hacker News Discussion](https://news.ycombinator.com/item?id=8411754)

@@ -5,6 +5,6 @@
 		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
       {{ .Date.Format "Jan 2006" }}
     </time>
-    <p>{{ .Summary }}</p>
+    <p>{{ .Summary }}{{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More…</a>{{ end }}</p>
 	</h3>
 </section>
