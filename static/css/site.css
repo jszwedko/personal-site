@@ -1,5 +1,11 @@
 p.site-description {
   font-size: .8em;
+  margin-top: 0px;
+}
+
+/* override margin from theme */
+div#follow-icons {
+  margin-bottom: 0px;
 }
 
 /* override theme code font size */
