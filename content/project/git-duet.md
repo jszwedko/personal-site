@@ -14,8 +14,8 @@ version: 0.1.0
 
 ---
 
-`git-duet` makes use of the committer field of `git` commits to allow
-paired pairing while maintaining identity.
+[`git-duet`](https://github.com/git-duet/git-duet) makes use of the committer
+field of `git` commits to allow paired pairing while maintaining identity.
 
 <!--more-->
 
