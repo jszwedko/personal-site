@@ -5,8 +5,8 @@
 		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
       {{ .Date.Format "2 Jan 2006" }}
     </time>
-    <p><a href="{{ .Params.slides }}">Slides</a></p>
-    <p>{{ .Summary }}{{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More…</a>{{ end }}</p>
+    </h3>
+  <p><a href="{{ .Params.slides }}">Slides</a></p>
+  <p>{{ .Summary }}{{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More…</a>{{ end }}</p>
     {{ partial "tags.html" . }}
-	</h3>
 </section>

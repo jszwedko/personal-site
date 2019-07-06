@@ -9,7 +9,7 @@ date: "2015-08-15T13:16:22-07:00"
 ---
 
 As described in a [previous post]({{<ref
-"post/ansible-aws-launch-configuration.md">}}), at
+"/post/ansible-aws-launch-configuration.md">}}), at
 [Braintree](http://braintreepayments.com/), we use Ansible as the [user
 data](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html) in the
 launch configurations (LC) of our autoscaling groups (ASGs) to configure
@@ -130,7 +130,7 @@ autoscaling group as you make changes locally.
 Once you are satisfied with your configuration, I still recommend going through
 the process of updating the LC with your gzipped Ansible configuration (again
 see my [previous post]({{<ref
-"post/ansible-aws-launch-configuration.md">}}) for a way to do this) and
+"/post/ansible-aws-launch-configuration.md">}}) for a way to do this) and
 spinning a fresh instance up in your ASG to ensure that your configuration
 works when ran from scratch. I've often been bit by configuration that worked
 while I was iteratively adding to it and mutating state where it did not work
