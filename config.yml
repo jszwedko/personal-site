@@ -3,6 +3,10 @@ baseurl: "http://jesseszwedko.com/"
 languageCode: "en-us"
 title: "Jesse Szwedko"
 
+pygmentsStyle: github
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+
 params:
   author: "Jesse Szwedko"
   firstname: "Jesse"

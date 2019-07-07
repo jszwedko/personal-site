@@ -12,3 +12,15 @@ div#follow-icons {
 body code {
   font-size: 1em;
 }
+
+code {
+  background-color: #eee;
+}
+
+.highlight {
+  background-color: #b2dcee;
+}
+
+.highlight code {
+  background-color: inherit;
+}
